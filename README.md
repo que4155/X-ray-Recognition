@@ -41,7 +41,7 @@ num of female image : 169
 
 num of male image : 180
 
-I am a Radiologist intern in Show Chwan Memorial Hospital,Taiwan from 2018/7~2019/1,used my free time and get permission to collect data.
+I am a Radiologist intern in Show Chwan Memorial Hospital,Taiwan from 2018/7~2019/1,using my free time and got permission to collect data.
 
 # Steps
 Download pretrained model Inception V2 and unzip it to ckpt file
