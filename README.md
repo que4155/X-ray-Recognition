@@ -21,7 +21,13 @@ Recognize sex by  pubic symphysis in x-ray image using transfer learning with In
 # Environment 
 Pretrained Model : inception Resnet V2 2016_08_30
 
+Python : 3.6.4
+
+Tensorflow-GPU : 1.6.0
+
 GPU : NVidia GTX 860M
+
+NVidia CUDA : 9.1
 
 Epochs : 100
 
