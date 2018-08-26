@@ -47,7 +47,7 @@ Use train.py to train with Inception V2 ,and then we can make new model
 Use evaluate.py and last model to get evaluation 
 
 # Some Predictions
-![https://github.com/que4155/X-ray-Recognition/blob/master/picture/predict.png)
+![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/predict.png)
 
 # References
 https://kwotsin.github.io/tech/2017/02/11/transfer-learning.html
