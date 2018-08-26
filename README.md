@@ -1,5 +1,5 @@
 # X-ray-Recognition
-Recognize sex by  pubic symphysis in x-ray image using transfer learning with Incepiton V2
+Recognize sex by  pubic symphysis in x-ray image using transfer learning with Incepiton Resnet V2
 
 # Where is Different between Two Sex
 
@@ -18,7 +18,18 @@ Recognize sex by  pubic symphysis in x-ray image using transfer learning with In
  
  Accuracy : 0.959
  ![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/ac.png)
- 
+# Environment 
+Pretrained Model : inception Resnet V2 2016_08_30
+
+GPU : NVidia GTX 860M
+
+Epochs : 100
+
+Batch Size : 4
+
+Learning Rate : 0.0001
+
+Learning Rate Decay Factor : 0.7
 # DataSet
 num of female image : 169
 
@@ -27,13 +38,16 @@ num of male image : 180
 I am a Radiologist intern in Show Chwan Memorial Hospital,Taiwan from 2018/7~2019/1,used my free time and get permission to collect data.
 
 # Steps
-Download pre-train model Inception V2 and unzip it to ckpt file
+Download pretrained model Inception V2 and unzip it to ckpt file
 
-Use python tfrecord.py to generate tfrecord for training
+Use tfrecord.py to generate tfrecord for training
 
-Use python train.py to train with Inception V2 ,and then we can make new model
+Use train.py to train with Inception V2 ,and then we can make new model
 
-Use python evaluate.py and last model to get evaluation 
+Use evaluate.py and last model to get evaluation 
+
+# Some Predictions
+
 # References
 https://kwotsin.github.io/tech/2017/02/11/transfer-learning.html
 
