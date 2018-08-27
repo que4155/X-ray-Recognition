@@ -1,12 +1,12 @@
 # X-ray-Recognition
 Recognize sex by  pubic symphysis in x-ray image using transfer learning with Incepiton Resnet V2
 
-# Where is Different between Two Sex
+# Where is Different between Two Sex - the angle
 
-![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/19y_m_0581123.jpg)
+![image]()
 
-     Male  
-![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/20y_f_1865012.jpg)
+     Male
+![image]()
      
     Female
 # Reseult in test
