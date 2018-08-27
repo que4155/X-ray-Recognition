@@ -3,10 +3,10 @@ Recognize sex by  pubic symphysis in x-ray image using transfer learning with In
 
 # Where is Different between Two Sex - the angle
 
-![image]()
+![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/19y_m_0581123.jpg)
 
      Male
-![image]()
+![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/20y_f_1865012.jpg)
      
     Female
 # Reseult in test
