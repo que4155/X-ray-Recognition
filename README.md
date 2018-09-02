@@ -1,5 +1,5 @@
 # X-ray-Recognition
-Recognize sex by  pubic symphysis in x-ray image using transfer learning with Incepiton Resnet V2
+Recognize sex by  pubic symphysis in x-ray image using transfer learning with Inception Resnet V2
 
 # Where is Different between Two Sex - the angle
 
