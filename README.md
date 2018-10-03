@@ -18,6 +18,10 @@ Recognize sex by  pubic symphysis in x-ray image using transfer learning with In
  
  Accuracy : 0.959
  ![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/ac.png)
+ 
+# Some Predictions
+ ![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/predict.png)
+
 # Environment 
 Pretrained Model : inception Resnet V2 2016_08_30
 
@@ -52,8 +56,7 @@ Use train.py to train with Inception V2 ,and then we can make new model
 
 Use evaluate.py and last model to get evaluation 
 
-# Some Predictions
-![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/predict.png)
+
 
 # References
 https://kwotsin.github.io/tech/2017/02/11/transfer-learning.html
