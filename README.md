@@ -5,10 +5,10 @@ Recognize sex by  pubic symphysis in x-ray image using transfer learning with In
 
 ![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/19y_m_0581123.jpg)
 
-     Male
+     Male has a small angle
 ![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/20y_f_1865012.jpg)
      
-    Female
+    Female generally has bigger angle
 # Reseult in test
  Fifty image for test
  
@@ -41,7 +41,7 @@ num of female image : 169
 
 num of male image : 180
 
-I am a Radiologist intern in Show Chwan Memorial Hospital,Taiwan from 2018/7~2019/1,using my free time and got permission to collect data.
+I am a Radiologist intern in Show Chwan Memorial Hospital,Taiwan from 2018/7~2019/1,using my free time and got permission to collect data which is only JPEG file without any personal tags.
 
 # Steps
 Download pretrained model Inception V2 and unzip it to ckpt file
