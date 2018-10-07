@@ -50,11 +50,13 @@ I were a Radiologist intern in Show Chwan Memorial Hospital,Taiwan from 2018/7~2
 # Steps
 Download pretrained model Inception V2 and unzip it to ckpt file
 
+Classify your Data,i even reshape them to make sure the pubis symphysis right in center of picture
+
 Use tfrecord.py to generate tfrecord for training
 
-Use train.py to train with Inception V2 ,and then we can make new model
+Use train.py to train with Inception Resnet V2 ,a combinition structure of VGG an Resnet, then we can get new model
 
-Use evaluate.py and last model to get evaluation 
+Use evaluate.py and last model to get evaluation , here i test this model with 50 pictures
 
 
 
