@@ -45,6 +45,8 @@ num of female image : 169
 
 num of male image : 180
 
+I am a radiation technologist in hostipal, all data collecting from the hospital with premission.
+
 # Steps
 Download pretrained model Inception V2 and unzip it to ckpt file
 
