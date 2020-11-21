@@ -61,6 +61,5 @@ Use evaluate.py and last model to get evaluation , here i test this model with 5
 
 
 # References
-https://kwotsin.github.io/tech/2017/02/11/transfer-learning.html
-
+https://kwotsin.github.io/post/transfer_learning/
 https://my.oschina.net/caibobit/blog/1605196
