@@ -1,7 +1,7 @@
 # X-ray-Recognition
-Recognize sex by  pubic symphysis in x-ray image using transfer learning with Inception Resnet V2
+Recognize sex by  pubic symphysis in KUB x-ray image using transfer learning with Inception Resnet V2
 
-# Where is Different between Two Sex - the angle
+# Difference between Female and Male
 
 ![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/19y_m_0581123.jpg)
 
@@ -19,7 +19,7 @@ Recognize sex by  pubic symphysis in x-ray image using transfer learning with In
  Accuracy : 0.959
  ![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/ac.png)
  
-# Some Predictions
+# Predictions
  ![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/predict.png)
 
 # Environment 
@@ -41,22 +41,20 @@ Learning Rate : 0.0001
 
 Learning Rate Decay Factor : 0.7
 # DataSet
-num of female image : 169
+Number of female image : 169
 
-num of male image : 180
-
-I am a radiation technologist in hostipal, all data collecting from the hospital with premission.
+Number of male image : 180
 
 # Steps
-Download pretrained model Inception V2 and unzip it to ckpt file
+Download pretrained model Inception ResNet V2 and unzip it to ckpt file
 
-Classify your Data, i even reshape them to make sure the pubis symphysis right in center of picture
+Classify your Data and save a Label.txt, i even reshape them to make sure the pubis symphysis right in center of picture
 
-Use tfrecord.py to generate tfrecord for training
+Using tfrecord.py to generate tfrecord for training
 
-Use train.py to transfer learning with Inception Resnet V2 and some fine tuning, then we can get new model
+Using train.py to transfer learning with Inception Resnet V2 and some fine tuning, then we can get new model
 
-Use evaluate.py and last model to evaluate, here i tested this model with 50 pictures
+Using evaluate.py and last model to evaluate, here i tested this model with 50 pictures
 
 
 
