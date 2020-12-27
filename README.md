@@ -46,13 +46,13 @@ Number of female image : 169
 Number of male image : 180
 
 # Steps
-Download pretrained model Inception ResNet V2 and unzip it to ckpt file
+Download pretrained model Inception ResNet V2 and unzip it to ckpt file and thus you have a "checkpoint_file" path
 
-Classify your Data and save a Label.txt, i even reshape them to make sure the pubis symphysis right in center of picture
+Classify your Data and save a Label.txt, in this case, i have female and male folder respectively in dataset, and thus we have a "dataset_dir" path
 
 Using tfrecord.py to generate tfrecord for training
 
-Using train.py to transfer learning with Inception Resnet V2 and some fine tuning, then we can get new model
+Using train.py to transfer learning with Inception Resnet V2, but you need to setup "log_dir" to start training
 
 Using evaluate.py and last model to evaluate, here i tested this model with 50 pictures
 
