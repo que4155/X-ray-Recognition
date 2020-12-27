@@ -9,17 +9,13 @@ Recognize sex by  pubic symphysis in KUB x-ray image using transfer learning wit
 ![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/20y_f_1865012.jpg)
      
     Female generally has bigger angle
-# Reseult in test
+# Reseult and Predictions
  Fifty image for test
- 
- batch size : 10
- 
- epoch : 20
  
  Accuracy : 0.959
  ![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/ac.png)
  
-# Predictions
+ Predictions
  ![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/predict.png)
 
 # Environment 
