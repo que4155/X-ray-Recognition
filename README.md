@@ -19,7 +19,7 @@ Recognize sex by  pubic symphysis in KUB x-ray image using transfer learning wit
  ![image](https://github.com/que4155/X-ray-Recognition/blob/master/picture/predict.png)
 
 # Environment 
-Pretrained Model : inception Resnet V2 2016_08_30
+Pretrained Model : Inception Resnet V2 2016_08_30
 
 Python : 3.6.4
 
@@ -36,21 +36,22 @@ Batch Size : 4
 Learning Rate : 0.0001
 
 Learning Rate Decay Factor : 0.7
+
 # DataSet
 Number of female image : 169
 
 Number of male image : 180
 
 # Steps
-Download pretrained model Inception ResNet V2 and unzip it to ckpt file and thus you have a "checkpoint_file" path
+Download pretrained model Inception ResNet V2 and unzip it and thus you have a "checkpoint_file" path.
 
-Classify your Data and save a Label.txt, in this case, i have female and male folder respectively in dataset, and thus we have a "dataset_dir" path
+Classify your data in different folders and then save a "Label.txt" which include your lebel name and its code name, and thus we have a "dataset_dir" path.
 
-Using tfrecord.py to generate tfrecord for training
+Using tfrecord.py to generate tfrecord from DICOM for training.
 
-Using train.py to transfer learning with Inception Resnet V2, but you need to setup "log_dir" to start training
+Using train.py to transfer learning with Inception Resnet V2, but you need to setup "log_dir" to save records.
 
-Using evaluate.py and last model to evaluate, here i tested this model with 50 pictures
+Using evaluate.py and last model to test and then open tensorboard with log folder for inspection.
 
 
 
